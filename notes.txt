@@ -1,0 +1,175 @@
+type of lang. 
+
+HL -> LL 
+
+translator 
+
+compiler , interpreter 
+
+C -> compiler 
+C++ -> compiler
+java -> compiler + interpreter 
+python -> interepreter 
+
+
+python a.py 
+--------------------------
+data type :-
+
+		1) inbuilt - primitive 
+		2) userdefine 	- non primitive 
+
+ 
+		char %c 1
+		int  %d 4
+		long %l 8
+		float %f 4
+		double %lf 8 
+
+ 			
+variable :- to store any data / information -> 
+		a=10;
+		a = "royal";
+		a = 20.25; 
+		a = true; 
+
+		a=10;//4 byte 
+		type(a) //<class>int
+		a="royal";//8byte str 
+ 		type(a) //<class>str 
+
+int max100; 
+
+1) you can have digit 0-9, alphabets a-zA-Z , special symbol ( _ ) 
+2) first character must not be digit. 
+3) you cant use reserv words - keywords [ for , else, if , switch , case , goto ]
+4) its case sensitive [ max , Max ] 
+5) max 32 characters are recogn.  
+
+int _salary;
+int max_salary;
+int max100;
+int 1max2; 
+
+
+-------------------------------------------------------------------
+
+
+if.....
+if.....else 
+nested if.....
+else if lader 
+
+
+if( p > 90)
+
+else if(p > 80 p < 90)
+
+else if( p > 70  p < 80)
+ 
+
+switch (p)
+	case 
+
+	case 
+
+	case 
+		break 
+-------------------------
+num -> odd even 
+
+loop -> 		
+	1) counter control 
+		for 
+	2) sentinal control 
+		while
+		do..while
+
+iterative 
+	royal -> 10 times 
+1)start 
+2)condition
+3)inc/dec
+
+
+
+	for(start ; condition ; inc/dec ){
+		//body 
+	}
+
+	for(i=1;i<=10;i++){
+		printf("\nRoyal");
+	}
+
+	take number from user 
+	and print multiplicatin table of it? 
+	5
+	5 * 1 = 5
+	....
+  	5 * 10 = 50 
+
+	printf("%d",num); //5 
+	
+	num = 154
+	num=12
+	num=58695;  
+ 
+    while(condition){
+        //body 
+    }
+
+
+start ; 
+  while(condition){
+        //body 
+        //inc dec 
+    }
+
+
+
+1  -2  3 -4 5 -6 7 -8 9 -10 
+for(i=1;i<=10;i++){
+    if(i%2 == 0){
+        print(" -%d",i);
+    }else{
+      print(" %d",i);     
+    }
+}
+
+*
+**
+***
+****
+*****
+
+for(i=1;i<=5;i++){
+    print("*");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
